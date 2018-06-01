@@ -8,7 +8,7 @@ Outline App, QQ, WeChat, Magnet, Evernote, Slack, Wallpaper Wizard 2, YoudaoDict
 IINA, fliqlo, google-backup-and-sync, grammarly, google-chrome, andbrake, mendeley, itsycal, writefull, appcleaner, sourcetree, keka, cheatsheet, teamviewer, mactex, keycast, tunnelblic, alfred  
 
 ## git install
-- WeChatTweak `https://github.com/Sunnyyoung/WeChatTweak-macOS.git`
+- WeChatPlugin
 
 # Safari plugin 
 ## tampermonkey
