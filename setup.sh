@@ -129,7 +129,3 @@ alias ......='cd ../../../../../'
 alias sshremotenas='ssh admin@1.42.164.121 -p 64'
 alias sshlocalnas='ssh admin@192.168.31.15 -p 64'
 alias sshscem='ssh xyang1@student.scem.westernsydney.edu.au'">>.zshrc
-
-# #################################
-# Thought Train
-# https://www.thoughttrain.cc
