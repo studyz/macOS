@@ -116,7 +116,7 @@ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\
 
 # #################################
 echo "Wechat Plugin"
-cd ~/Downloads/ && git clone https://github.com/Sunnyyoung/WeChatTweak-macOS.git && cd WeChatTweak-macOS
+cd ~/Downloads && rm -rf WeChatPlugin-MacOS && git clone https://github.com/TKkk-iOSer/WeChatPlugin-MacOS && ./WeChatPlugin-MacOS/Other/Install.sh && rm -rf WeChatPlugin-MacOS
 
 # #################################
 cd ~ && echo "alias ls='ls -alh'
