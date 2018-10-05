@@ -122,14 +122,13 @@ echo "Wechat Plugin"
 cd ~/Downloads && rm -rf WeChatPlugin-MacOS && git clone https://github.com/TKkk-iOSer/WeChatPlugin-MacOS && ./WeChatPlugin-MacOS/Other/Install.sh && rm -rf WeChatPlugin-MacOS
 
 # #################################
-cd ~ && echo "alias ls='ls -alh'
+echo "alias ls='ls -alh'
 alias cask='brew cask'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
-alias ......='cd ../../../../../'">>.zshrc
-
+alias ......='cd ../../../../../'">>~/.zshrc && source ~/.zshrc
 
 # #################################
 echo "install Oh-my-zsh"
