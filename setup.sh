@@ -103,6 +103,7 @@ caskapps=(
 	"keycastr:keycastr"
 	"etcher:etcher"
 	"telegram:telegram"
+	"atom:atom"
 	#"tunnelblick:tunnelblick"
 	"alfred:alfred"
 	"mactex:mactex"
