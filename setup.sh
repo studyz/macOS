@@ -108,7 +108,7 @@ caskapps=(
 for apps in "${caskapps[@]}" ; do
     code="${apps%%:*}"
     name="${apps##*:}"
-    # brew cask install $code
+    brew cask install $code
     echo -e "$name installed!"
 done
 
