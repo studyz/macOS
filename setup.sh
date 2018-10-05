@@ -61,9 +61,6 @@ for apps in "${brewapps[@]}" ; do
     echo -e "$name installed!"
 done
 
-# #################################
-echo "install Oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 echo -e "######################\nMAS Install start\n######################"
@@ -135,3 +132,9 @@ alias ......='cd ../../../../../'
 alias sshremotenas='ssh admin@1.42.164.121 -p 64'
 alias sshlocalnas='ssh admin@192.168.31.15 -p 64'
 alias sshscem='ssh xyang1@student.scem.westernsydney.edu.au'">>.zshrc
+
+
+# #################################
+echo "install Oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
