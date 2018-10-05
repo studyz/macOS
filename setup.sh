@@ -57,7 +57,7 @@ brewapps=(
 for apps in "${brewapps[@]}" ; do
     code="${apps%%:*}"
     name="${apps##*:}"
-    # brew install $code
+    brew install $code
     echo -e "$name installed!"
 done
 
@@ -78,7 +78,7 @@ masapps=(
 for apps in "${masapps[@]}" ; do
     code="${apps%%:*}"
     name="${apps##*:}"
-    # mas install $code
+    mas install $code
     echo -e "$name installed!"
 done
 
@@ -92,17 +92,18 @@ caskapps=(
 	"handbrake:handbrake"
 	"mendeley:mendeley"
 	"itsycal:itsycal"
+	"outline-manager:outline-manager"
 	"writefull:writefull"
 	"appcleaner:appcleaner"
 	"sourcetree:sourcetree"
 	"keka:keka"
 	"cheatsheet:cheatsheet"
 	"teamviewer:teamviewer"
-	"mactex:mactex"
 	"omnidisksweeper:omnidisksweeper"
 	"keycastr:keycastr"
 	"tunnelblick:tunnelblick"
 	"alfred:alfred"
+	"mactex:mactex"
 	)
 
 for apps in "${caskapps[@]}" ; do
