@@ -13,6 +13,11 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES; killall Finde
 # defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder
 
 # #################################
+echo "深色主题浅色界面"
+defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+# 恢复 defaults write -g NSRequiresAquaSystemAppearance -bool No
+
+# #################################
 echo "dock 零延迟"
 defaults write com.apple.Dock autohide-delay -float 0; killall Dock
 
@@ -39,6 +44,7 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots; killall S
 # #################################
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 
 echo -e "######################\nBrew Install start\n######################"
 brewapps=(
