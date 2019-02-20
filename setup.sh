@@ -138,3 +138,13 @@ alias ......='cd ../../../../../'">>~/.zshrc && source ~/.zshrc
 echo "install Oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# WeChat Helper#################################
+# cd ~/Downloads && rm -rf WeChatPlugin-MacOS && git clone https://github.com/TKkk-iOSer/WeChatPlugin-MacOS && ./WeChatPlugin-MacOS/Other/Install.sh && rm -rf WeChatPlugin-MacOS
+
+
+# #################################
+# 1. 在「系统偏好设置 - 通用」中将外观切换成「浅色」。
+# 2. 打开终端，输入指令：
+# defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+# 3. 注销并重新登录。这一步会关闭当前所有打开的应用，因此需要提前保存好所有文稿。
+# 4. 在「系统偏好设置 - 通用」中将外观切换成「深色」。
