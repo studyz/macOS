@@ -74,6 +74,7 @@ masapps=(
 	"1266674560:Wallpaper Wizard 2"
 	"491854842:YoudaoDict"
 	"1176895641:Spark"
+	"1452453066:Hidden Bar"
 	)
 for apps in "${masapps[@]}" ; do
     code="${apps%%:*}"
@@ -105,8 +106,8 @@ caskapps=(
 	"telegram:telegram"
 	"atom:atom"
 	#"tunnelblick:tunnelblick"
-	"alfred:alfred"
-	"mactex:mactex"
+	#"alfred:alfred"
+	#"mactex:mactex"
 	)
 
 for apps in "${caskapps[@]}" ; do
@@ -145,6 +146,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # #################################
 # 1. 在「系统偏好设置 - 通用」中将外观切换成「浅色」。
 # 2. 打开终端，输入指令：
-# defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+#defaults write -g NSRequiresAquaSystemAppearance -bool Yes
 # 3. 注销并重新登录。这一步会关闭当前所有打开的应用，因此需要提前保存好所有文稿。
 # 4. 在「系统偏好设置 - 通用」中将外观切换成「深色」。
