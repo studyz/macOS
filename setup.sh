@@ -45,6 +45,9 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots; killall S
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# #################################
+echo "install Oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo -e "######################\nBrew Install start\n######################"
 brewapps=(
@@ -135,9 +138,7 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'">>~/.zshrc && source ~/.zshrc
 
-# #################################
-echo "install Oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 # WeChat Helper#################################
 # cd ~/Downloads && rm -rf WeChatPlugin-MacOS && git clone https://github.com/TKkk-iOSer/WeChatPlugin-MacOS && ./WeChatPlugin-MacOS/Other/Install.sh && rm -rf WeChatPlugin-MacOS
